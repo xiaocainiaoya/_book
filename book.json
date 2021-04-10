@@ -1,0 +1,68 @@
+{
+  "title": "不懂技术的小菜鸟",
+  "author": "xiaocainiaoya",
+  "description": "不懂技术的小菜鸟的文档库. 里面包含了个人撰写的博客和学习过程中的一些记录、以及日常开发或工作过程中碰到的一些问题记录。",
+  "language": "zh-hans",
+  "plugins": [
+    "theme-fexa",
+    "prism",
+    "-highlight",
+    "search-pro",
+    "-search",
+    "-lunr",
+    "expandable-chapters",
+    "splitter",
+    "-sharing",
+    "page-treeview",
+    "tbfed-pagefooter",
+    "pageview-count",
+    "anchor-navigation-ex",
+    "back-to-top-button"
+  ],
+  "variables": {
+        "themeFexa":{
+            "nav":[
+                {
+                    "url":"https://blog.csdn.net/csdnjiamin",
+                    "target":"_blank",
+                    "name": "CSDN"
+                },
+                {
+                  "url": "https://www.cnblogs.com/acmaner/",
+                  "target": "_bkank",
+                  "name": "博客园"
+                },
+                {
+                  "url": "https://github.com/xiaocainiaoya",
+                  "target": "_bkank",
+                  "name": "github"
+                }
+            ]
+        }
+  },
+  "pluginsConfig": {
+    "theme-fexa":{
+            "search-placeholder":"输入关键字搜索", 
+            "logo":"./logo.png", 
+            "favicon": "./favicon.ico" 
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-okaidia.css"
+      ]
+    },
+    "tbfed-pagefooter": {
+      "copyright":"Copyright &copy xiaocainiaoya.top 2021",
+      "modify_label": "最后修改时间",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false
+    },
+    "page-treeview": {
+            "copyright": "Copyright &#169; aleen42",
+            "minHeaderCount": "2",
+            "minHeaderDeep": "6"
+    }
+  }
+}
